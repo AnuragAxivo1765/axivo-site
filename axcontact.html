@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!--Font Awesome link-->
+    <link rel="icon" href="Hero2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="homestyle.css">
+</head>
+<body>
+    <!--Header / navbar-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="index.html" class="nav-logo">
+                <h2 class="logo-text">AXIVO.in</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav item">
+                    <a href="axabout.html" class="nav-link">About</a>
+                </li>
+                <li class="nav item">
+                    <a href="axteam.html" class="nav-link">Team</a>
+                </li>
+                <li class="nav item">
+                    <a href="axcontact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+    <main>
+        <!--Contact Section-->
+        <section class="contact-section">
+            <div class="section-content">
+                <h1 class="contact-title">Contact Us</h1>
+                <p class="contact-subtitle">We'd love to hear from you! Fill out the form below and we'll get back to you soon.</p>
+                <form class="contact-form" id="contact-form" autocomplete="off">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="user_name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="user_email" required placeholder="you@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Type your message..."></textarea>
+                    </div>
+                    <button type="submit" class="button contact-us">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>    
+        <!--Footer-->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2025 Axivo.in. All rights reserved.</p>
+                <div class="social-link-list">
+                    <a href="https://www.instagram.com/axivo.in" target="_blank" class="social-link"><i class="fa-brands
+                    fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com.company/axivoin" class="social-link"><i class="fa-brands
+                    fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+    
+
+    <script src="homescript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</body>
+</html>
